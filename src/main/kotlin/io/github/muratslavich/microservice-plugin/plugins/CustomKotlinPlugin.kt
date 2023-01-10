@@ -1,9 +1,9 @@
-package com.prot.`microservice-plugin`.plugins
+package io.github.muratslavich.`microservice-plugin`.plugins
 
-import com.prot.`microservice-plugin`.detektExtension
-import com.prot.`microservice-plugin`.implementation
-import com.prot.`microservice-plugin`.microserviceExtension
-import com.prot.`microservice-plugin`.testImplementation
+import io.github.muratslavich.`microservice-plugin`.detektExtension
+import io.github.muratslavich.`microservice-plugin`.implementation
+import io.github.muratslavich.`microservice-plugin`.microserviceExtension
+import io.github.muratslavich.`microservice-plugin`.testImplementation
 import org.gradle.api.Plugin
 import org.gradle.api.Project
 import org.gradle.jvm.toolchain.JavaLanguageVersion

@@ -1,4 +1,4 @@
-package com.prot.`microservice-plugin`.packs
+package io.github.muratslavich.`microservice-plugin`.packs
 
 import org.gradle.api.Plugin
 import org.gradle.api.Project

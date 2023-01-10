@@ -1,8 +1,8 @@
-package com.prot.`microservice-plugin`
+package io.github.muratslavich.`microservice-plugin`
 
-import com.prot.`microservice-plugin`.packs.KotlinPack
-import com.prot.`microservice-plugin`.packs.SpringBootPack
-import com.prot.`microservice-plugin`.packs.SpringPack
+import io.github.muratslavich.`microservice-plugin`.packs.KotlinPack
+import io.github.muratslavich.`microservice-plugin`.packs.SpringBootPack
+import io.github.muratslavich.`microservice-plugin`.packs.SpringPack
 import org.gradle.api.Action
 import org.gradle.api.Project
 import org.gradle.api.artifacts.dsl.DependencyHandler
