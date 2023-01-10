@@ -1,4 +1,4 @@
-package com.prot.microservice.plugin
+package com.prot.`microservice-plugin`
 
 import org.gradle.testkit.runner.GradleRunner
 import org.junit.jupiter.api.Test

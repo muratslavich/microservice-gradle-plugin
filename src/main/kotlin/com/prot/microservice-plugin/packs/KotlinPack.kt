@@ -1,8 +1,8 @@
-package com.prot.microservice.plugin.packs
+package com.prot.`microservice-plugin`.packs
 
-import com.prot.microservice.plugin.implementation
-import com.prot.microservice.plugin.plugins.CustomKotlinPlugin
-import com.prot.microservice.plugin.testImplementation
+import com.prot.`microservice-plugin`.implementation
+import com.prot.`microservice-plugin`.plugins.CustomKotlinPlugin
+import com.prot.`microservice-plugin`.testImplementation
 import io.gitlab.arturbosch.detekt.DetektPlugin
 import org.gradle.api.Plugin
 import org.gradle.api.Project

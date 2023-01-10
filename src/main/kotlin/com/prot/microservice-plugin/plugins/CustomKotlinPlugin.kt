@@ -1,9 +1,9 @@
-package com.prot.microservice.plugin.plugins
+package com.prot.`microservice-plugin`.plugins
 
-import com.prot.microservice.plugin.detektExtension
-import com.prot.microservice.plugin.implementation
-import com.prot.microservice.plugin.microserviceExtension
-import com.prot.microservice.plugin.testImplementation
+import com.prot.`microservice-plugin`.detektExtension
+import com.prot.`microservice-plugin`.implementation
+import com.prot.`microservice-plugin`.microserviceExtension
+import com.prot.`microservice-plugin`.testImplementation
 import org.gradle.api.Plugin
 import org.gradle.api.Project
 import org.gradle.jvm.toolchain.JavaLanguageVersion

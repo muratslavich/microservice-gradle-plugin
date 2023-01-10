@@ -1,5 +1,6 @@
-package com.prot.microservice.plugin.packs
+package com.prot.`microservice-plugin`.packs
 
+import com.prot.`microservice-plugin`.*
 import com.prot.microservice.plugin.*
 import org.gradle.api.Plugin
 import org.gradle.api.Project

@@ -8,7 +8,7 @@ plugins {
     id("com.gradle.plugin-publish") version "1.1.0"
 }
 
-group = "com.prot.plugin"
+group = "com.prot.microservice-plugin"
 version = "0.1.0"
 
 gradlePlugin {
@@ -16,10 +16,11 @@ gradlePlugin {
     vcsUrl.set("https://github.com/muratslavich/microservice-gradle-plugin.git")
     plugins {
         create("microservicePlugin") {
-            id = "microservice-plugin"
+            id = "com.prot.microservice-plugin"
             displayName = "Plugin for build microservices in prot project"
             description = "Cool plugin"
-            implementationClass = "com.prot.microservice.plugin.Main"
+            implementationClass = "com.prot.microservice-plugin.MicroservicePlugin"
+            tags.set(listOf("kotlin", "spring", "springboot", "microservices", "mvc"))
         }
     }
 }

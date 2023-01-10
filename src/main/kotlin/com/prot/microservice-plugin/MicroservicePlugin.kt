@@ -1,4 +1,4 @@
-package com.prot.microservice.plugin
+package com.prot.`microservice-plugin`
 
 import org.gradle.api.Plugin
 import org.gradle.api.Project
@@ -7,7 +7,7 @@ import org.gradle.api.tasks.testing.Test
 import org.gradle.kotlin.dsl.create
 import org.gradle.kotlin.dsl.getByName
 
-class Main : Plugin<Project> {
+class MicroservicePlugin : Plugin<Project> {
 
     override fun apply(project: Project): Unit = project.run {
         configureCommonProject()

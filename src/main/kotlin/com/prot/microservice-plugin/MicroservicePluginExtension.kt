@@ -1,8 +1,8 @@
-package com.prot.microservice.plugin
+package com.prot.`microservice-plugin`
 
-import com.prot.microservice.plugin.packs.KotlinPack
-import com.prot.microservice.plugin.packs.SpringBootPack
-import com.prot.microservice.plugin.packs.SpringPack
+import com.prot.`microservice-plugin`.packs.KotlinPack
+import com.prot.`microservice-plugin`.packs.SpringBootPack
+import com.prot.`microservice-plugin`.packs.SpringPack
 import org.gradle.api.Action
 import org.gradle.api.Project
 import org.gradle.api.artifacts.dsl.DependencyHandler

@@ -1,7 +1,7 @@
-package com.prot.microservice.plugin.packs
+package com.prot.`microservice-plugin`.packs
 
-import com.prot.microservice.plugin.implementation
-import com.prot.microservice.plugin.testImplementation
+import com.prot.`microservice-plugin`.implementation
+import com.prot.`microservice-plugin`.testImplementation
 import io.spring.gradle.dependencymanagement.DependencyManagementPlugin
 import org.gradle.api.Plugin
 import org.gradle.api.Project

@@ -1,4 +1,4 @@
-package com.prot.microservice.plugin
+package com.prot.`microservice-plugin`
 
 import io.gitlab.arturbosch.detekt.extensions.DetektExtension
 import org.gradle.api.Project
