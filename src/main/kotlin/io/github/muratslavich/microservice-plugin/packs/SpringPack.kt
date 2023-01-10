@@ -1,6 +1,6 @@
-package com.prot.`microservice-plugin`.packs
+package io.github.muratslavich.`microservice-plugin`.packs
 
-import com.prot.`microservice-plugin`.*
+import io.github.muratslavich.`microservice-plugin`.*
 import org.gradle.api.Plugin
 import org.gradle.api.Project
 import org.gradle.api.artifacts.dsl.DependencyHandler
