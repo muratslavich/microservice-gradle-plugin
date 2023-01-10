@@ -9,7 +9,7 @@ plugins {
 }
 
 group = "com.prot.microservice-plugin"
-version = "0.1.0"
+version = "0.1.1"
 
 gradlePlugin {
     website.set("https://github.com/muratslavich/microservice-gradle-plugin")
