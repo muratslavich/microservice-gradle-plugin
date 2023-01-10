@@ -1,5 +1,5 @@
 plugins {
-    id("microservice-plugin")
+    id("com.prot.microservice-plugin")
 }
 
 microservice {
