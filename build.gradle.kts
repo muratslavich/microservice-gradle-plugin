@@ -12,8 +12,8 @@ group = "com.prot.plugin"
 version = "0.1.0"
 
 gradlePlugin {
-    website.set("https://github.com/gradleTest")
-    vcsUrl.set("https://github.com/gradleTest.git")
+    website.set("https://github.com/muratslavich/microservice-gradle-plugin")
+    vcsUrl.set("https://github.com/muratslavich/microservice-gradle-plugin.git")
     plugins {
         create("microservicePlugin") {
             id = "microservice-plugin"
