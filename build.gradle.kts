@@ -9,7 +9,7 @@ plugins {
 }
 
 group = "io.github.muratslavich.microservice-plugin"
-version = "0.1.0"
+version = "0.1.1"
 
 gradlePlugin {
     website.set("https://github.com/muratslavich/microservice-gradle-plugin")
@@ -35,10 +35,11 @@ dependencies {
     api("org.jetbrains.kotlin:kotlin-gradle-plugin:1.8.0")
     api("org.jetbrains.kotlin:kotlin-allopen:1.8.0")
     api("org.jetbrains.kotlin:kotlin-noarg:1.8.0")
+    api("org.jetbrains.kotlin:kotlin-gradle-plugin:1.8.0")
     api("io.gitlab.arturbosch.detekt:detekt-gradle-plugin:1.22.0")
     api("org.springframework.boot:spring-boot-gradle-plugin:3.0.1")
     api("io.spring.gradle:dependency-management-plugin:1.1.0")
-    testImplementation("org.junit.jupiter:junit-jupiter:5.9.0")
+    testImplementation("org.junit.jupiter:junit-jupiter:5.9.2")
     testImplementation(gradleTestKit())
 }
 

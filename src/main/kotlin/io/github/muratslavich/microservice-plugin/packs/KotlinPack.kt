@@ -9,7 +9,6 @@ import org.gradle.api.Project
 import org.gradle.api.artifacts.dsl.DependencyHandler
 import org.gradle.api.provider.Property
 import org.gradle.kotlin.dsl.kotlin
-import org.jetbrains.kotlin.gradle.internal.Kapt3GradleSubplugin
 import org.jetbrains.kotlin.gradle.plugin.KotlinPluginWrapper
 
 // https://docs.spring.io/spring-boot/docs/current/reference/html/dependency-versions.html#appendix.dependency-versions.coordinates
@@ -48,9 +47,8 @@ abstract class KotlinPack : GenericPack {
     override fun getAllPlugins(): List<Class<out Plugin<Project>>> {
         return listOf(
             KotlinPluginWrapper::class.java,
-            Kapt3GradleSubplugin::class.java,
             DetektPlugin::class.java,
-            CustomKotlinPlugin::class.java
+            CustomKotlinPlugin::class.java,
         )
     }
 }
